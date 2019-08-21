@@ -5,7 +5,7 @@ bot =commands.Bot(command_prefix="-")
 
 @bot.event
 async def on_ready():
-	await bot.change_presence(activity=discord.Activity(type=1,name="with DEEPAK"))
+	await bot.change_presence(activity=discord.Activity(type=1,name="with ARMAN"))
 	print("Online with " + bot.user.name)
 	
 	
@@ -15,4 +15,4 @@ async def tanmay(ctx,*, content: str):
 	
 	await ctx.send(content)
 	
-bot.run("NjEzNzM3NzQ0MzA4MzcxNDU2.XV1TWQ.jZkjlDHk7Ihyjy4Q4nF4DSvVtLk")
+bot.run('NjEzNzM3NzQ0MzA4MzcxNDU2.XV1TWQ.jZkjlDHk7Ihyjy4Q4nF4DSvVtLk')
