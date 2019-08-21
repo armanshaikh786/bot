@@ -1,6 +1,5 @@
 import discord
 from discord.ext import commands
-import asyncio
 
 bot =commands.Bot(command_prefix="-")
 
@@ -16,4 +15,4 @@ async def tanmay(ctx,*, content: str):
 	
 	await ctx.send(content)
 	
-bot.run("NjExNDY1ODI5ODQ1OTU4NjY3.XV1BnA.JeW-MtbRBs7_QVR0U6lhnSiA9Ro")
+bot.run("NjEzNzM3NzQ0MzA4MzcxNDU2.XV1SNA.mnR3iD-Gm9gbe4q2ZvA8igFIYMU")
