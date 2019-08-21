@@ -16,4 +16,4 @@ async def tanmay(ctx,*, content: str):
 	
 	await ctx.send(content)
 	
-bot.run("bot-token")
+bot.run('NjExNDY1ODI5ODQ1OTU4NjY3.XV1BnA.JeW-MtbRBs7_QVR0U6lhnSiA9Ro')
